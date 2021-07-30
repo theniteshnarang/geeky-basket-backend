@@ -1,0 +1,352 @@
+const productData = {
+  name:"Books",
+  productItems: [{
+    name:'Originals: How Non-Conformists Change the World',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/71naKLFVtkL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/8194f1SyJEL.jpg'
+    ],
+    desc:{
+      text: 'A manifesto for originality and a guide to championing new ideas that challenge the status quo.',
+      reviews: [
+        '"ORIGINALS is one of the most important and captivating books I have ever read, full of surprising and powerful ideas. It will not only change the way you see the world; it might just change the way you live your life. And it could very well inspire you to change your world." (Sheryl Sandberg, bestselling author of LEAN IN)',
+        '"Reading ORIGINALS made me feel like I was seated across from Adam Grant at a dinner party, as one of my favorite thinkers thrilled me with his insights and his wonderfully new take on the world." (Malcolm Gladwell)'   
+      ],
+      author : "Adam Grant is the youngest tenured professor and single highest-rated teacher at The Wharton School. His consulting and speaking clients include Google, the NFL, Johnson & Johnson, Pixar, Goldman Sachs, the World Economic Forum, the United Nations, and the U.S. Army and Navy. He has been honoured as one of Malcolm Gladwell's favourite social science writers, one of BusinessWeek's favourite professors and one of the world's top 40 business professors under 40."
+    },
+    external:{
+      link: 'https://www.amazon.in/Originals-How-Non-conformists-Change-World/dp/0753556995'
+    },
+    price:{
+      mrp:599,
+      discount:27
+    },
+    authors:['Adam Grant', 'Sheryl Sandberg'],
+    ratings: {
+      total: 2382,
+      avg:4.5
+    },
+    fastDelivery: true,
+    genre: ['Start Up','Business'],
+    qty: 10
+  },
+  
+  {
+    name:'Deep Work: Rules for Focused Success in a Distracted World',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/418Mmq-lMLL._SX316_BO1,204,203,200_.jpg',
+    ],
+    desc:{
+      text: 'Popular blogger Cal Newport reveals the new key to achieving success and true meaning in professional life - the ability to master distraction.',
+      reviews: [
+        'DEEP WORK accomplishes two considerable tasks: One is putting out a wealth of concrete practices for the ambitious, without relying on gauzy clichés. The second is that Mr. Newport resists the corporate groupthink of constant connectivity without seeming like a curmudgeon',
+        'DEEP WORK makes a compelling case for cultivating intense focus, and offers immediately actionable steps for infusing more of it into our lives.'   
+      ],
+      author : "Cal Newport holds the position of assistant Computer Science professor at Georgetown University and his area of specialization is 'distributed algorithms'. He graduated from Dartmouth and obtained a PH.D. from MIT. Apart from studying technological development, he has authored books describing the impact of recent technological developments on our daily lives and work. Deep Work turned out to be a Wall Street bestseller immediately and garnered positive reviews from all major newspapers. His first book, So Good They Can't Ignore You, talks about the common myth of 'following your passion' and how it can actually prove to be detrimental. The controversial self help books penned by him are realistic and appeal to practical readers across the globe."
+    },
+    external:{
+      link: 'https://www.amazon.in/Deep-Work-Focused-Success-Distracted/dp/0349413681/'
+    },
+    price:{
+      mrp:399,
+      discount: 35
+    },
+    fastDelivery: true,
+    authors:['Cal Newport'],
+    ratings: {
+      total: 5907,
+      avg:4.4
+    },
+    genre: ['Self Help'],
+    qty: 20
+  },
+  
+  {
+    name:'Zero to One: Notes on Start Ups, or How to Build the Future',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/81nxgLC5PAL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/71P-glANdAL.jpg'
+    ],
+    desc:{
+      text: 'What Valuable Company is Nobody Building?',
+      reviews: [
+        '‘Peter Thiel has built multiple breakthrough companies, and Zero to One shows how.’ - Elon Musk, CEO of SpaceX and Tesla',
+        '‘This book delivers completely new and refreshing ideas on how to create value in the world.’ - Mark Zuckerberg, CEO of Facebook',
+        '‘When a risk taker writes a book, read it. In the case of Peter Thiel, read it twice. Or, to be safe, three times. This is a classic.’ - Nassim Nicholas Taleb, author of The Black Swan'   
+      ],
+      author : "Peter Thiel is an entrepreneur and investor. He started PayPal in 1998, led it as CEO, and took it public in 2002, defining a new era of fast and secure online commerce. In 2004 he made the first outside investment in Facebook, where he serves as a director. The same year he launched Palantir Technologies, a software company that harnesses computers to empower human analysts in fields like national security and global finance. He has provided early funding for LinkedIn, Yelp, and dozens of successful technology startups, many run by former colleagues who have been dubbed the “PayPal Mafia.” He is a partner at Founders Fund, a Silicon Valley venture capital firm that has funded companies like SpaceX and Airbnb. He started the Thiel Fellowship, which ignited a national debate by encouraging young people to put learning before schooling, and he leads the Thiel Foundation, which works to advance technological progress and long- term thinking about the future."
+    },
+    external: {
+      link:'https://www.amazon.in/Zero-One-Start-Build-Future/dp/0753555190/'
+    },
+    price:{
+      mrp:550,
+      discount:39
+    },
+    authors:['Peter Thiel', 'Blake Masters'],
+    ratings: {
+      total: 8407,
+      avg:4.4
+    },
+    genre: ['Start Up'],
+    qty: 25
+  },
+
+  {
+    name:'Atomic Habits: The life-changing Book',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/81DCnP7ntKL.jpg',
+    ],
+    desc:{
+      text: '‘A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less.’ Mark Manson, author of The Subtle Art of Not Giving A F*ck',
+      reviews: [
+        'Atomic Habits is a step-by-step manual for changing routines . . . Inspiring real-life stories. -- Books of the Month ― Financial Times',
+        'James Clear has spent years honing the art and studying the science of habits. This engaging, hands-on book is the guide you need to break bad routines and make good ones. -- Adam Grant, author of Originals',
+        'A special book that will change how you approach your day and live your life. -- Ryan Holiday, author of The Obstacle is the Way'   
+      ],
+      author : "James Clear is an expert on habits and decision making. He made his name as the author of one of the fastest-growing email newsletters in history, which grew from zero to 100,000 subscribers in under two years. Today, his newsletter has over 400,000 subscribers and his articles at jamesclear receive 10 million hits each year. His work frequently appears in publications including the New York Times, Forbes and Business Insider."
+    },
+    external: {
+      link:'https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/'
+    },
+    price:{
+      mrp:750,
+      discount:10
+    },
+    fastDelivery: true,
+    authors:['James Clear'],
+    ratings: {
+      total: 17552,
+      avg:4.6
+    },
+    genre: ['Self Help'],
+    qty: 25
+  },
+
+  {
+    name:'So Good They Can\'t Ignore You',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/514uM+oAwbL._SX325_BO1,204,203,200_.jpg'
+    ],
+    desc:{
+      text: 'In this extraordinary eye-opening account, Georgetown University professor Dr. Calvin Newport debunks the long-held traditonal notion that \'following your passion\' is good career advice',
+      reviews: [
+        '\'Stop worrying about what you feel like doing and instead, start creating something meaningful and then give it to the world. Cal really delivers with this one\' Seth Godin, author of Linchpin',
+        'So Good They Can\'t Ignore You is for anyone fretting about what to do with their life, or frustrated by simplistic slogans like \'do what you love and the money will follow\'. It will change the way you think about your career, happiness and the crafting of a remarkable life.', 
+      ],
+      author : "Cal Newport, Ph.D., lives in Washington, DC, where he is a writer and an assistant professor of computer science at Georgetown University. He is the author of So Good They Can't Ignore You and three books of unconventional advice for students. He runs the popular website Study Hacks: Decoding Patterns of Success."
+    },
+    external: {
+      link:'https://www.amazon.in/Good-They-Cant-Ignore-You/dp/0349420211/'
+    },
+    price:{
+      mrp:499,
+      discount:45
+    },
+    fastDelivery: true,
+    authors:['Cal Newport'],
+    ratings: {
+      total: 1517,
+      avg:4.5
+    },
+    genre: ['Self Help'],
+    qty: 25
+  },
+
+  {
+    name:'ReWork: Change the Way You Work Forever',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/41ju6JBCJmL._SX311_BO1,204,203,200_.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/51d8Pfwq9NL.jpg'
+    ],
+    desc:{
+      text: 'Rework is a unique business book which shows the reader a better, faster, easier way to be successful in business. The book tells the reader why plans are truly harmful, why people don\'t need outside investors and why a person is better ignoring the competition.',
+      reviews: [
+        '37signals...doesn\'t just have customers, it has raving fans, and its leaders are web celebrities ― Guardian',
+        'There\'s no jargon or filler here just hundreds of brilliantly simple rules for success',
+        'Inspirational...REWORK is a minimalist manifesto that\'s profoundly practical. In a world where we all keep getting asked to do more with less, the authors show us how to do less and create more',
+        'Great if you\'re at a fledgling stage of business. It\'s a little controversial... but I find it brilliant just the same. A quick read too. ― Stylist' 
+      ],
+      author : "David Heinemeier Hansson is a Danish programmer and the creator of the popular Ruby on Rails web development framework. He is also a partner at the web-based software development firm 37signals based in Chicago, Illinois."
+    },
+    external: {
+      link:'https://www.amazon.in/ReWork-Change-Way-Work-Forever/dp/0091929784/'
+    },
+    price:{
+      mrp:699,
+      discount:39
+    },
+    authors:['David Heinemeier Hansson','Jason Fried'],
+    ratings: {
+      total: 3034,
+      avg:4.4
+    },
+    genre: ['Business'],
+    qty: 0
+  },
+
+   {
+    name:'Pyjama Profit: The Millennial\'s Guide to a Sustainable Freelance Career',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/41CJpYdqVwL._SX324_BO1,204,203,200_.jpg'
+    ],
+    desc:{
+      text: 'The book gives a glimpse into the world of freelance and how one can create a sustainable financial life by exploring the numerous options freelance economy has to offer us.',
+      reviews: [
+        'A good book to experience how freelancing works in real world- Nitesh Narang' 
+      ],
+      author : "Varun is a computer science engineer from Manipal who raised funding in India at the age of 20 for the recruitment platform, Jobspire. Since then, he has hired over 200 people and now runs the 40-man Avalon Labs, a profitable holdings company that owns multiple businesses and dabbles in edge technology like artificial reality, blockchain and AI."
+    },
+    external: {
+      link:'https://www.amazon.in/Pyjama-Profit-Millennials-Sustainable-Freelance/dp/9387146847/'
+    },
+    price:{
+      mrp:399,
+      discount:0
+    },
+    authors:['Varun Mayya','Abhinav Chhikara'],
+    ratings: {
+      total: 211,
+      avg:4.6
+    },
+    genre: ['Business'],
+    qty: 25
+  },
+
+  {
+    name:'Ego is the Enemy: The Fight to Master Our Greatest Opponent',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/51os4QMx98L._SX365_BO1,204,203,200_.jpg'
+    ],
+    desc:{
+      text: 'A powerful meditation on the nature and dangers of ego, from the bestselling author of The Obstacle is the Way',
+      reviews: [
+        'Ryan Holiday is one of his generation\'s finest thinkers, and this book is his best yet.',
+        'This is a book I want every athlete, aspiring leader, entrepreneur, thinker and doer to read. Ryan Holiday is one of the most promising young writers of his generation.',
+        'I don\'t have many rules in life, but one I never break is: If Ryan Holiday writes a book, I read it as soon as I can get my hands on it.',
+        'We\'re often told that to achieve success, we need confidence. With refreshing candor, Ryan Holiday challenges that assumption, highlighting how we can earn confidence by pursuing something bigger than our own success'
+      ],
+      author : "Ryan Holiday is the bestselling author of Trust Me, I'm Lying, Growth Hacker Marketing and the Obstacle is the Way. His books have been translated into seventeen languages and his writing has appeared everywhere from the Columbia Journalism Review to Fast Company. He was director of marketing at American Apparel for many years and his strategies in growth hacking and advertising are used as case studies by Twitter, YouTube and Google."
+    },
+    external: {
+      link:'https://www.amazon.in/Ego-Enemy-Ryan-Holiday/dp/1781257019/'
+    },
+    price:{
+      mrp:499,
+      discount:37
+    },
+    fastDelivery: true,
+    authors:['Ryan Holiday'],
+    ratings: {
+      total: 3364,
+      avg:4.5
+    },
+    genre: ['Self Help'],
+    qty: 0
+  },
+
+   {
+    name:'The Obstacle is the Way: The Ancient Art of Turning Adversity to Advantage',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/71RFL-jdXGL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/71QDz3u5cfL.jpg',
+    ],
+    desc:{
+      text: 'In business and marketing, Ryan Holiday has done it all, seen it all, and now he\'s here to show you ... the way. A modern guru who shows the way to turn problems into opportunities.',
+      reviews: [
+        'A book for the bedside of every future - and current - leader in the world. -- Robert Greene, author of The 48 Laws of Power and Mastery',
+        'Ryan Holiday is part Machiavelli, part Ogilvy ... this whiz kid is the secret weapon you\'ve never heard of. -- Tim Ferriss ― The 4-Hour Work Week',
+        'An absolute must-read. A kind of user\'s manual for life, you will turn to it time and time again and learn to tear through any obstacle and resolve any conflict. -- Jimmy Soni, managing editor of Huffington Post, author of Rome\'s Last Citizen',
+        'An astonishing, disturbing book ― Financial Times'
+      ],
+      author : "Ryan Holiday is the bestselling author of Trust Me, I'm Lying, Growth Hacker Marketing and the Obstacle is the Way. His books have been translated into seventeen languages and his writing has appeared everywhere from the Columbia Journalism Review to Fast Company. He was director of marketing at American Apparel for many years and his strategies in growth hacking and advertising are used as case studies by Twitter, YouTube and Google."
+    },
+    external: {
+      link:'https://www.amazon.in/Obstacle-Way-Ancient-Adversity-Advantage/dp/1781251487/'
+    },
+    price:{
+      mrp:499,
+      discount:29
+    },
+    authors:['Ryan Holiday'],
+    ratings: {
+      total: 2969,
+      avg:4.5
+    },
+    genre: ['Self Help'],
+    qty: 25
+  },
+
+  {
+    name:'Give and Take: Why Helping Others Drives Our Success',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/61uo-3ex5NL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/61ej-fXsv9L.jpg',
+    ],
+    desc:{
+      text: 'A groundbreaking look at why our interactions with others hold the key to success, from the bestselling author of Originals.',
+      reviews: [
+        'Give and Take is perfectly timed and beautifully weighted ... Above all, Grant\'s book is optimistic, a refreshing change after years of reading angry indictments of fallen corporate idols ... [An] excellent book',
+        'Give and Take is a truly exhilarating book - the rare work that will shatter your assumptions about how the world works and keep your brain firing for weeks after you\'ve turned the last page',
+        'Give and Take is brimming with life-changing insights. As brilliant as it is wise, this is not just a book - it\'s a new and shining worldview. Adam Grant is one of the great social scientists of our time, and his extraordinary new book is sure to be a bestseller',
+        'Give and Take just might be the most important book of this young century. As insightful and entertaining as Malcolm Gladwell at his best, this book has profound implications for how we manage our careers, deal with our friends and relatives, raise our children, and design our institutions. This gem is a joy to read, and it shatters the myth that greed is the path to success'
+      ],
+      author : "Adam Grant is the youngest tenured professor at Wharton, and an award-winning researcher and teacher. Previously, he was a record-setting salesperson, negotiator, and advertising director at Let's Go Publications; an All-American and Junior Olympic springboard diver; a conflict mediator; and a professional magician."
+    },
+    external: {
+      link:'https://www.amazon.in/Give-Take-Helping-Others-Success/dp/1780224729/'
+    },
+    price:{
+      mrp:499,
+      discount:25
+    },
+    fastDelivery: true,
+    authors:['Adam Grant'],
+    ratings: {
+      total: 1300,
+      avg:4.5
+    },
+    genre: ['Self Help', 'Business'],
+    qty: 25
+  },
+
+  {
+    name:'Eloquent JavaScript: A Modern Introduction to Programming',
+    image: [
+      'https://images-na.ssl-images-amazon.com/images/I/91asIC1fRwL.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/91MPjkVOE3L.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/81az74D8iFL.jpg'
+    ],
+    desc:{
+      text: 'Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.',
+      reviews: [
+        'JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.',
+        'Understand the essential elements of programming, including syntax, control, and data',
+        'Organize and clarify your code with object-oriented and functional programming techniques',
+        'Harness Node.js to build servers and utilities'
+      ],
+      author : "Marijn Haverbeke is a programming language enthusiast and polyglot. He's worked on a wide range of software systems, from databases to compilers to editors. He runs a small business around his open source projects."
+    },
+    external: {
+      link:'https://www.amazon.in/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507/'
+    },
+    price:{
+      mrp:2699,
+      discount:28
+    },
+    fastDelivery: false,
+    authors:['Marijn Haverbeke'],
+    ratings: {
+      total: 808,
+      avg:4.6
+    },
+    genre: ['Computer Science'],
+    qty: 0
+  },
+
+]
+}
+
+module.exports = {productData}

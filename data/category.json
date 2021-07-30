@@ -1,0 +1,29 @@
+{
+   "name":"Genre",
+   "items":[
+      {
+         "name":"Self Help",
+         "products":[
+            
+         ]
+      },
+      {
+         "name":"Business",
+         "products":[
+            
+         ]
+      },
+      {
+         "name":"Start Up",
+         "products":[
+            
+         ]
+      },
+      {
+         "name":"Computer Science",
+         "products":[
+            
+         ]
+      }
+   ]
+}
